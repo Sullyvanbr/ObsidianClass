@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    width: fit-content;
+    margin: auto;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px
+}
