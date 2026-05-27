@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon premier timer JavaScript</title>
+  </head>
+
+  <body>
+    <div id="timer"></div>
+    <script>
+      let temps = 100;
+      const timerElement = document.getElementById("timer");
+
+      function diminuerTemps() {
+        timerElement.innerText = temps;
+        temps--;
+      }
+
+      setInterval(diminuerTemps, 1000);
+    </script>
+  </body>
+</html>
